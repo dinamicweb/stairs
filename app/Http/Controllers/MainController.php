@@ -9,6 +9,7 @@ use App\Http\Requests;
 class MainController extends Controller
 {
     public function index(){
+        dd('Изменил для наглядности');
        return view('index');
     }
 
